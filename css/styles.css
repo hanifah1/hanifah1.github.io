@@ -4,7 +4,186 @@ body {
 
   .projectName {
     text-transform: uppercase;
+  }body {
+  position: relative;
+  } /**for scrollspy**/
+
+  .projectName {
+    text-transform: uppercase;
   }
+
+
+  .projectName a {
+    color: white;
+  }
+
+#home img {
+  padding-left: 30px;
+  padding-top: 240px;
+}
+  #home h3 {
+    font-family: 'Barrio';
+    font-size: 75px
+  }
+
+  #home p {
+    font-size: 20px;
+    font-family: Consolas, monaco, monospace;
+  }
+
+
+  #home {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  /**Parallax**/
+  background-image: url("../img/img5.jpg");
+  /*Add a background image*/
+  background-attachment: fixed;
+  /*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+  /*Have the background cover the entire div section*/
+  /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+  height: 665px; /**for parallax**/
+}
+
+  /*****ABOUT PAGE CSS*****/
+
+  #about {
+    font-family: 'Source Sans Pro';
+    margin: 0 auto;
+    background-color: #D3D3D3;
+    padding-bottom: 80px;
+  }
+
+  .header1 h1 {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #about h3 {
+    font-size: 40px;
+    color: #ecb807;
+  }
+
+  #about p {
+    font-size: 20px;
+  }
+
+  /***** WORK PAGE CSS *****/
+
+  #work {
+    margin: 50px;
+    padding-bottom: 400px;
+    padding-top: 90px;
+  }
+
+  .workheader h1{
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+  }
+
+  /***** WORK PAGE CSS (JavaScript)*****/
+  .work-img {
+    display: block; /* needed to center the element with margin */
+    margin: auto; /* center the image inside the column if it's smaller */
+    max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+    position: relative; /* is needed for .info position: absolute to work */
+  }
+
+  .info2 {
+    position: absolute; /* let's us move the text around and not worry about the image */
+    top: 15%; /* position the text 15% away from the top */
+  }
+
+  .proj-title {
+  }
+
+  .info2 {
+    padding: 10px;
+    padding-right: 5px;
+    background-color: #FFA07A;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    color:black;
+    font-family:Futura;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:0.5em;
+    line-height:1.6;
+    display: none;
+  }
+
+  .proj-title {
+    font-weight:100;
+  }
+
+  /***** CONTACT PAGE CSS *****/
+
+  #contact {
+    font-family: 'Source Sans Pro';
+
+    margin: 0 auto;
+    /**Parallax**/
+    background-image: url("../img/img5.jpg");
+    /*Add a background image*/
+    background-attachment: fixed;
+    /*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+    /*Have the background cover the entire div section*/
+    /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    height: 340px; /**for parallax**/
+  }
+
+  .header {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 70px;
+  }
+
+  .header h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 95px;
+    -webkit-margin-after: 0em;
+    -webkit-margin-before: 0.5em;
+    padding-bottom: 15px;
+  }
+
+  .modal-button {
+    clear: both;
+    padding: 15px;
+    padding-right: 500px;
+  }
+
+  .info {
+    text-align: center;
+    padding-top: 250px;
+    margin-bottom: 150px;
+  }
+
+  .info p {
+    font-size: 20px;
+    color: black;
+  }
+
+  .info h3 {
+    font-size: 50px;
+    color: #ecb807;
+  }
+
+  #resume {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+  }
+
 
 
   .projectName a {
@@ -291,7 +470,7 @@ body {
   .form-group2 {
     padding-left: 17px;
   }
-  
+
   #phone {
     margin-left: 7px;
   }
