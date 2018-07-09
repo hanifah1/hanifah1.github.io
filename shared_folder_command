@@ -1,0 +1,1 @@
+sudo mount -t vboxsf cf /home/hanifah/Desktop/cf_shared
