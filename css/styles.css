@@ -4,6 +4,7 @@ body {
 
   .projectName {
     text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
   }
 
 
@@ -12,17 +13,20 @@ body {
   }
 
 #home img {
-  padding-left: 30px;
-  padding-top: 240px;
+  margin-left: 700px;
+  margin-top: 235px;
+  border: 2px solid black;
 }
   #home h3 {
-    font-family: 'Barrio';
-    font-size: 75px
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 75px;
+    text-shadow: 2px 2px 4px black;
   }
 
   #home p {
-    font-size: 20px;
-    font-family: Consolas, monaco, monospace;
+    font-size: 23px;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 1px 1px 2px black;
   }
 
 
@@ -38,7 +42,7 @@ body {
   background-size: cover;
   /*Have the background cover the entire div section*/
   /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
-  height: 665px; /**for parallax**/
+  height: 700px; /**for parallax**/
 }
 
   /*****ABOUT PAGE CSS*****/
@@ -46,48 +50,73 @@ body {
   #about {
     font-family: 'Source Sans Pro';
     margin: 0 auto;
-    background-color: #D3D3D3;
-    padding-bottom: 80px;
+    background-color:   #dbdcff;
+    padding-bottom: 100px;
   }
 
   .header1 h1 {
     text-align: center;
     padding-top: 80px;
-    font-size: 70px;
-    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 80px;
     color: white;
+    text-shadow: 1px 1px 2px gray;
+    font-family: 'Fjalla One', sans-serif;
   }
 
   #about h3 {
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: bold;
     color: #ecb807;
+    text-shadow: 1px 1px 2px gray;
+    text-align: center;
   }
 
   #about p {
     font-size: 20px;
+    text-align: center;
+  }
+
+  button {
+    margin-left: 200px;
+    margin-top: 30px;
   }
 
   /***** WORK PAGE CSS *****/
 
   #work {
-    margin: 50px;
-    padding-bottom: 400px;
-    padding-top: 90px;
+    margin: 80px;
+    padding-bottom: 1120px;
+    padding-top: 70px;
+    text-align: center;
+    font-family:Source Sans Pro;
+  }
+
+  #work p {
+    margin-right: 50px;
+    margin-left: 50px;
   }
 
   .workheader h1{
+    font-family: 'Fjalla One', sans-serif;
     text-align: center;
-    font-family: 'Source Sans Pro';
     font-size: 80px;
-    font-weight: bold;
     color: black;
+    padding-bottom: 50px;
   }
 
+  .worksDesc
+  {
+    font-size: 15px;
+    margin: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
   /***** WORK PAGE CSS (JavaScript)*****/
   .work-img {
     display: block; /* needed to center the element with margin */
     margin: auto; /* center the image inside the column if it's smaller */
-    max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+    max-width: 400px; /* needs to be set to the width of your image files if they are relatively small */
     position: relative; /* is needed for .info position: absolute to work */
   }
 
@@ -96,27 +125,37 @@ body {
     top: 15%; /* position the text 15% away from the top */
   }
 
-  .proj-title {
-  }
-
   .info2 {
     padding: 10px;
     padding-right: 5px;
-    background-color: #FFA07A;
+    background-color: #ecb807;
     position: absolute;
-    top: 15%;
-    left: 22%;
+    top: 30%;
+    left: 10%;
+    right: 10%;
     color:black;
-    font-family:Futura;
     text-transform:uppercase;
     font-weight:700;
     letter-spacing:0.5em;
     line-height:1.6;
     display: none;
+    text-align: center;
   }
 
   .proj-title {
-    font-weight:100;
+    font-weight: 100;
+  }
+
+  .arraylinks {
+    font-size: 30px;
+  }
+
+  .arraylinks2 {
+    font-size: 16px;
+  }
+
+  #arrayJava {
+    padding-bottom: 50px;
   }
 
   /***** CONTACT PAGE CSS *****/
