@@ -65,7 +65,7 @@ body {
   }
 
   #about h3 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #ecb807;
     text-shadow: 1px 1px 2px gray;
@@ -75,11 +75,14 @@ body {
   #about p {
     font-size: 20px;
     text-align: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-bottom: 50px;
   }
 
   button {
-    margin-left: 200px;
-    margin-top: 30px;
+    margin-left: 500px;
+    margin-top: 10px;
   }
 
   /***** WORK PAGE CSS *****/
@@ -161,7 +164,7 @@ body {
   /***** CONTACT PAGE CSS *****/
 
   #contact {
-    font-family: 'Source Sans Pro';
+    font-family: 'Fjalla One', sans-serif;
 
     margin: 0 auto;
     /**Parallax**/
@@ -204,7 +207,10 @@ body {
   .info p {
     font-size: 20px;
     color: black;
+    font-family: 'Source Sans Pro';
   }
+
+
 
   .info h3 {
     font-size: 50px;

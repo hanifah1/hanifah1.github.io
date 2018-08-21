@@ -74,8 +74,8 @@ $(document).ready(function(){
     <span class='info2'><p class='proj-title'>" + works[i].type + "</p>" + works[i].title + "</span>\
     </a>\
     <p class='worksDesc'> " + works[i].desc +" </p>\
-    <a href='"+ works[i].html +"' class='arraylinks'>LAUNCH THE APP.<br /> </a>\
-    <a href='"+ works[i].link +"' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE.<br /> </a>\
+    <a href='"+ works[i].html +"' class='arraylinks'>LAUNCH THE APP<br /> </a>\
+    <a href='"+ works[i].link +"' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>\
     </div>\
     "); //adds array
     var images = $("#work img");

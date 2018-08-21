@@ -12,7 +12,7 @@ var works = [
     type: "JavaScript HTML / CSS",
     title: "To Do List App",
     pic: "img/pic4.jpg",
-    desc: "A to do list app coded with Javascript, HTML, and CSS that allows users to add items to a to do list. It gives users the ability to\
+    desc: "A to do list app coded with Javascript, HTML, and CSS that allows users to add tasks to a to do list. It gives users the ability to\
      distinguish completed tasks by clicking on the item which adds it to the list of completed tasks.                ",
     link: 'https://gist.github.com/hanifah1/6f1dbb7f6ed6700ebd98bdc3764638cf',
     html: 'toDoListApp.html'
