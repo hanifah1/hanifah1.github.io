@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Card Matching</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600|Abril+Fatface' rel='stylesheet' type='text/css'>
+
+    
+    <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/cardGame.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+<h1>It's a match!</h1>
+    <p>Try to match the correct cards using the least amount of clicks!</p>
+    <p id="success">Click two cards to start.</p>
+
+    <div id="game-board" class="board clearfix"></div>
+
+    <p>Number attempts: <span id="attempts">0</span></p>
+
+    <button id="reset">Reset Board</button>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/cardGame.js"></script>
+</body>
+</html>

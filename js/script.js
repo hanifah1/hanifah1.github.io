@@ -67,22 +67,20 @@ $(document).ready(function(){
 
   // work section
   for(var i = 0; i < works.length; ++i ) {
-    $("#work").append("\
-    <div class='col-sm-6 col-md-3'>\
-    <a href='#' class='work-img'>\
-    <img class='img-responsive' src='" + works[i].pic + "'>\
-    <span class='info2'><p class='proj-title'>Title:</p> Coming Soon </span>\
-    </a>\
-    </div>\
-    "); //adds array
-
+    //$("#work").append("\
+    //<div class='col-sm-12 col-md-6' id='arrayJava'>\
+    //<a class='work-img'>\
+    //<img class='img-responsive' src='" + works[i].pic + "'>\
+    //<span class='info2'><p class='proj-title'>" + works[i].type + "</p>" + works[i].title + "</span>\
+    //</a>\
+    //<p class='worksDesc'> " + works[i].desc +" </p>\
+    //<a href='"+ works[i].html +"' class='arraylinks'>LAUNCH THE APP<br /> </a>\
+    //<a href='"+ works[i].link +"' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>\
+    //</div>\
+    //"); 
     var images = $("#work img");
 
-    if(i%2 === 0){
-      $(images[i]).css("border", "2px solid DodgerBlue");
-    } else {
-      $(images[i]).css("border", "2px solid salmon");
-    };
+    $(images[i]).css("border", "2px solid #673888");
 
     $(".work-img").mouseenter(function(){
       $(".info2", this).show();
