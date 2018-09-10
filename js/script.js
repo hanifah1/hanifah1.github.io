@@ -77,7 +77,7 @@ $(document).ready(function(){
     //<a href='"+ works[i].html +"' class='arraylinks'>LAUNCH THE APP<br /> </a>\
     //<a href='"+ works[i].link +"' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>\
     //</div>\
-    //"); 
+    //");
     var images = $("#work img");
 
     $(images[i]).css("border", "2px solid #673888");
