@@ -1,6 +1,8 @@
 body {
-  position: relative;
-  } /**for scrollspy**/
+  position: relative; /**for scrollspy**/
+  max-width: 100%;
+  overflow-x: hidden;
+  }
 
   .projectName {
     text-transform: uppercase;
