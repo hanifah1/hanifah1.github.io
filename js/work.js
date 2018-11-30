@@ -1,5 +1,10 @@
 var works = [
   {
+    type: "HTML / CSS",
+    title: "SyncIoT HomePage Design",
+    pic: "img/pic8.jpg"
+  },
+  {
     type: "Ruby on Rails",
     title: "E-Commerce Site",
     pic: "img/pic3.jpg",
@@ -7,6 +12,11 @@ var works = [
      payment options, product rating/reviews, and admin account restrictions, alongside many other capabilities.",
     link: 'https://github.com/hanifah1/myapp',
     html: 'https://hanifahs-heroku.herokuapp.com/'
+  },
+  {
+    type: "JavaScript",
+    title: "Flickr API Challenge",
+    pic: "img/pic7.jpg"
   },
   {
     type: "JavaScript HTML / CSS",

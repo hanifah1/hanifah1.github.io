@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  padding: 10px;
+}
+
+#gallery{
+  text-align: center;
+}
+
+#page{
+    padding-bottom: 50px;
+}
+
+/*adjusts modal's content based on screen size*/
+@media (max-width: 750px) {
+   #displayImg {
+    height: auto;
+    width: 350px;
+    padding: none;
+    margin:none;
+ }
+   #modalContent {
+    margin: 5%;
+}
+}
+
+/* styling modal*/
+.modalDialog {                    
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+/*sets display, so that when the link is clicked modal box displays*/
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+/*styling Div tag */
+.modalDialog div {
+  width: 40%;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px 20px 13px 20px;
+}
+
+/* styling close 'x' button */
+.close {
+  background: white;
+  color: white;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+ }
+
+ 

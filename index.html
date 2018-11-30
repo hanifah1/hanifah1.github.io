@@ -47,7 +47,7 @@
 
       </div> <!--end navbar-header -->
 
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse" id= "nav">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -60,32 +60,28 @@
 
   <div class="container-fluid" id="home">
 
-    <img src="img/profile.jpg" class="img-responsive center-block">
             <h3>HANIFAH KHAN</h3>
-            <p>Web Developer</p>
+            <p>Frontend Developer</p>
 
   </div>
   <!-- ============================= -->
   <section id="about">
   <div class="container">
+    <div class='col-sm-12 col-md-6'>
     <div class="header1">
       <h1>ABOUT ME</h1>
+   
     </div><!-- end header -->
 
+          <p> A Caribbean-Muslim-NYC based frontend developer continuously cultivating my passion to develop crisp, responsive frontend interfaces and perfecting my ability to convert concepts into web applications that are functional, detailed, and efficient. </p>
 
-
-        <p> A full stack web developer that eats, sleeps, and breathes everything Computer Science ever since taking 'Intro to Computing' in my second semester of college. Continuously cultivating my passion to develop web applications and perfecting my ability to convert concepts into web applications that are functional, detailed, and efficient. </p>
-
-<p> Skilled in various languages and tools including: HTML, CSS, Boothstrap, Javascript, jQuery, AJAX, Ruby programming language, Ruby on Rails MVC framework, user authentication/authorization, Stripe payment processing, caching, Git version control, and configuring Heroku </p>
-
-
-
+          <p> Skilled in various languages and tools including, JavaScript, HTML, CSS, JQuery, and Boothstrap.  </p>
 
           <h3>Checkout my Resume!</h3>
 
              <div class="modal-button" id="button">
             <!-- Small modal button -->
-            <button class="btn btn-primary" data-toggle="modal"
+            <button class="btn btn-warning" data-toggle="modal"
             data-target=".bs-example-modal-sm">Hanifah's Resume</button>
 
             <!-- Small modal -->
@@ -106,6 +102,9 @@
         </div>
 
     </div>
+    <div class='col-sm-12 col-md-6'>
+      <img class='img-responsive' align="middle" src="img/profile2.jpg">
+        </div>
   </section>
     <!-- ============================= -->
 
@@ -114,45 +113,66 @@
       <div class="workheader">
         <h1> PROJECTS </h1>
         <p> <br> </p>
+    
+    <div class='col-sm-12 col-md-6' id='arrayJava'>
+    <a class='work-img' target="_blank" href='https://synciot.io/'>
+    <img class='img-responsive' src="img/pic8.jpg">
+    <span class='info2'><p class='proj-title'>HTML / CSS</p>SyncIoT HomePage Design</span>
+    </a>
+    <p class='worksDesc'>Designed and coded home page for SyncIoT, a start-up that works with sensors to send text alerts for temperature, humidity, and light in commercial buildings. New carousel images still need to be added and the company is still waiting on the logo designs.</p>
+    <a href='https://synciot.io/' target="_blank" class='arraylinks'>LAUNCH THE APP<br /> </a>
+    
+    </div>
 
     <div class='col-sm-12 col-md-6' id='arrayJava'>
-    <a class='work-img'>
+    <a class='work-img' target="_blank" href='https://hanifahs-heroku.herokuapp.com/'>
     <img class='img-responsive' src="img/pic3.jpg">
     <span class='info2'><p class='proj-title'>Ruby on Rails</p>E-Commerce Site</span>
     </a>
     <p class='worksDesc'>A fully funtional e-commerce site coded using Ruby on Rails, JavaScript, and APIs. The site features user accounts, databases, payment options, product rating/reviews, and admin account restrictions, alongside many other capabilities.</p>
-    <a href='https://hanifahs-heroku.herokuapp.com/' class='arraylinks'>LAUNCH THE APP<br /> </a>
-    <a href='https://github.com/hanifah1/myapp' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
+    <a href='https://hanifahs-heroku.herokuapp.com/' target="_blank" class='arraylinks'>LAUNCH THE APP<br /> </a>
+    <a href='https://github.com/hanifah1/myapp' target="_blank" class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
     </div>
 
     <div class='col-sm-12 col-md-6' id='arrayJava'>
-    <a class='work-img'>
-    <img class='img-responsive' src="img/pic4.jpg">
-    <span class='info2'><p class='proj-title'>JavaScript HTML / CSS</p>To Do List App</span>
+    <a class='work-img' target="_blank" href='flickrAPI.html'>
+    <img class='img-responsive' src="img/pic7.jpg">
+    <span class='info2'><p class='proj-title'>JavaScript</p>Flickr API Challenge</span>
     </a>
-    <p class='worksDesc'>A to do list app coded using Javascript, HTML, and CSS that allows users to add uncompleted tasks to a to do list. It gives users the ability to distinguish their tasks by clicking on the item which moves it from the to do section to the list of completed tasks.      </p>
-    <a href='toDoListApp.html' class='arraylinks'>LAUNCH THE APP<br /> </a>
-    <a href='https://gist.github.com/hanifah1/6f1dbb7f6ed6700ebd98bdc3764638cf' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
+    <p class='worksDesc'>A Javascript challenge where the goal was to call an API and display a gallery of 50 pictures as thumbnails, displaying 10 per page with a pop-up modal that displays the enlarged image using only vanilla Javascript.  </p>
+    <br/>
+    <a href='flickrAPI.html' target="_blank" class='arraylinks'>LAUNCH THE APP<br /> </a>
+    <a href='https://github.com/hanifah1/FlickrAPI' target="_blank" class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
     </div>
 
     <div class='col-sm-12 col-md-6' id='arrayJava'>
-    <a class='work-img'>
+    <a class='work-img' target="_blank" href='packingListApp.html'>
+    <img class='img-responsive' src="img/pic6.jpg">
+    <span class='info2'><p class='proj-title'>JQuery</p>Packing List App</span>
+    </a>
+    <p class='worksDesc'>The only packing list you'd ever need featuring jQuery. The packing list app allows the user to reccord, edit and delete packing items. It was also coded to keep a count of the remaining unpacked items and display to the user.</p> <p style="color: white">..............</p>
+    <a href='packingListApp.html' target="_blank" class='arraylinks'>LAUNCH THE APP<br /> </a>
+    <a href='https://gist.github.com/hanifah1/71ddb81cf6bcbe2f470c9bba029ddc3d' target="_blank" class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
+    </div>
+
+    <div class='col-sm-12 col-md-6' id='arrayJava'>
+    <a class='work-img' target="_blank" href='cardGame.html'>
     <img class='img-responsive' src="img/pic5.jpg">
     <span class='info2'><p class='proj-title'>JavaScript HTML / CSS</p>Card Game</span>
     </a>
     <p class='worksDesc'>A card matching game using Javascript, HTML, and CSS. The game keeps track of the number of user attempts untill all cards are correctly matched. </p>
-    <a href='cardGame.html' class='arraylinks'>LAUNCH THE APP<br /> </a>
-    <a href='https://gist.github.com/hanifah1/77cd3390c4b2810f115d85dd4e71b5ca' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
+    <a href='cardGame.html' target="_blank" class='arraylinks'>LAUNCH THE APP<br /> </a>
+    <a href='https://gist.github.com/hanifah1/77cd3390c4b2810f115d85dd4e71b5ca' target="_blank" class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
     </div>
-
+    
     <div class='col-sm-12 col-md-6' id='arrayJava'>
-    <a class='work-img'>
-    <img class='img-responsive' src="img/pic6.jpg">
-    <span class='info2'><p class='proj-title'>JQuery</p>Packing List App</span>
+    <a class='work-img' target="_blank" href='toDoListApp.html'>
+    <img class='img-responsive' src="img/pic4.jpg">
+    <span class='info2'><p class='proj-title'>JavaScript HTML / CSS</p>To Do List App</span>
     </a>
-    <p class='worksDesc'>A dynamic packing list featuring jQuery. It allows the user to reccord, edit and delete packing items and also keeps a count of the remaining unpacked items. </p>
-    <a href='packingListApp.html' class='arraylinks'>LAUNCH THE APP<br /> </a>
-    <a href='https://gist.github.com/hanifah1/71ddb81cf6bcbe2f470c9bba029ddc3d' class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
+    <p class='worksDesc'>A to do list app coded using Javascript, HTML, and CSS that allows users to add uncompleted tasks to a to do list. It gives users the ability to distinguish their tasks by clicking on the item which moves it from the to do section to the list of completed tasks.      </p>
+    <a href='toDoListApp.html' target="_blank" class='arraylinks'>LAUNCH THE APP<br /> </a>
+    <a href='https://gist.github.com/hanifah1/6f1dbb7f6ed6700ebd98bdc3764638cf' target="_blank" class='arraylinks2'>CLICK HERE TO CHECKOUT THE CODE<br /> </a>
     </div>
 
       </div>
@@ -175,10 +195,10 @@
       <section id="infosection">
       <div class="info">
 
-        <h3><span class="glyphicon glyphicon-envelope"></span> Email</h3>
-        <p><a href='mailto:khanhanifah@gmail.com'>khanhanifah@gmail.com</a></p>
+        <h3><span class="glyphicon glyphicon-envelope"></span><a href='mailto:khanhanifah@gmail.com'>Email</a></h3>
+        <p>khanhanifah@gmail.com</p>
 
-        <h3><span class="glyphicon glyphicon-globe"></span><a href='https://www.linkedin.com/in/hanifah-khan/'>LinkedIn </a></h3>
+        <h3><span class="glyphicon glyphicon-globe"></span><a target="_blank" href='https://www.linkedin.com/in/hanifah-khan/'>LinkedIn </a></h3>
 
      <!--<h3><a href="#"><span class="glyphicon glyphicon-globe"></span></a> Linkedin:</h3>
      <p>https://www.linkedin.com/in/hanifah-khan/</p>-->
