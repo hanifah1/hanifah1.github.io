@@ -1,7 +1,6 @@
 body {
-  position: relative; /**for scrollspy**/
-  max-width: 100%;
   overflow-x: hidden;
+  position: relative; /**for scrollspy**/
   }
 
   .projectName {
@@ -307,7 +306,7 @@ body {
   .info {
     text-align: center;
     padding-top: 200px;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 
   .info p {
