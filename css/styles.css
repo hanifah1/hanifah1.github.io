@@ -2,7 +2,7 @@ body {
   position: relative; /**for scrollspy**/
   max-width: 100%;
   overflow-x: hidden;
-  } 
+  }
 
   .projectName {
     text-transform: uppercase;
@@ -18,6 +18,12 @@ body {
     letter-spacing: 2px;
     color: white;
   }
+
+#home {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
 
 #home img {
 
@@ -44,23 +50,37 @@ body {
     text-shadow: 1px 1px 2px black;
   }
 
-
+  @media(min-width:600px) {
   #home {
-  text-align: center;
-  color: white;
-  margin: 0 auto;
-  /**Parallax**/
   background-image: url("../img/img2.jpg");
-  /*Add a background image*/
   background-attachment: fixed;
-  /*Give the background a fixed position does it not scroll when you scroll*/
-
   background-size: cover;
   background-repeat: no-repeat;
-  /*Have the background cover the entire div section*/
-  /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
   height: 727px; /**for parallax**/
 }
+  #contact{
+    background: url("../img/img2.jpg");
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 340px; /**for parallax**/
+  }
+}
+
+  @media(max-width:600px) {
+  #home {
+    background-image: url("../img/img3.jpg");
+    height: 600px;
+  }
+  #contact {
+    background-image: url("../img/img3.jpg");
+    height: 340px;
+  }
+}
+
 
   /*****ABOUT PAGE CSS*****/
 
@@ -69,7 +89,7 @@ body {
     margin: 0 auto;
     background-color: #7a9d96;
     text-align: center;
-    color: white; 
+    color: white;
   }
 
   .header1 h1 {
@@ -78,7 +98,7 @@ body {
     padding-bottom: 20px;
     font-size: 80px;
     text-shadow: 1px 1px 2px gray;
-    
+
   }
 
   #about h3 {
@@ -105,11 +125,11 @@ body {
 
 
    #button {
-    height:20px; 
-    width:100px; 
-    margin: -20px -50px; 
+    height:20px;
+    width:100px;
+    margin: -20px -50px;
     position:relative;
-    top:50%; 
+    top:50%;
     left:47%;
     padding-top: 28px;
     padding-bottom: 100px;
@@ -123,16 +143,32 @@ body {
    #button {
     margin-left: -60px;
   }
+ }
+
+ #image3 {
+   display: none;
 }
 
-#about img {
-    display: block;
-    margin-left: auto;
+#image2 {
+   margin-left: auto;
     margin-right: auto;
 }
 
-  
- 
+@media (max-width: 991px) {
+   #image2 {
+     display: none;
+   }
+
+   #image3 {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}
+
+
+
+
   /***** WORK PAGE CSS *****/
 
   #work {
@@ -141,7 +177,7 @@ body {
     text-align: center;
     font-family:Source Sans Pro;
   }
-  
+
   #work p {
     margin-right: 8%;
     margin-left: 8%;
@@ -176,7 +212,7 @@ body {
    .worksDesc
   {
     font-size: 15px;
-    margin: 50px 10px; 
+    margin: 50px 10px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -241,21 +277,6 @@ body {
     clear: both;
     font-family: 'Fjalla One', sans-serif;
     margin: 0 auto;
-  }
-
-  .parallax {
-    /**Parallax**/
-    background: url("../img/img2.jpg");
-    min-height: 100%;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    /*Give the background a fixed position does it not scroll when you scroll*/
-    /*Have the background cover the entire div section*/
-    /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
-    height: 340px; /**for parallax**/
   }
 
   .header {
