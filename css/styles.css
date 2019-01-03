@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   position: relative; /**for scrollspy**/
-  }
+  } 
 
   .projectName {
     text-transform: uppercase;
@@ -22,10 +22,9 @@ body {
     text-align: center;
     color: white;
     margin: 0 auto;
-}
+}  
 
 #home img {
-
   margin-top: 500px;
   border: 2px solid black;
 }
@@ -67,13 +66,13 @@ body {
     background-repeat: no-repeat;
     height: 340px; /**for parallax**/
   }
-}
-
+}  
+  
   @media(max-width:600px) {
   #home {
     background-image: url("../img/img3.jpg");
     height: 600px;
-  }
+  }  
   #contact {
     background-image: url("../img/img3.jpg");
     height: 340px;
@@ -88,7 +87,7 @@ body {
     margin: 0 auto;
     background-color: #7a9d96;
     text-align: center;
-    color: white;
+    color: white; 
   }
 
   .header1 h1 {
@@ -97,7 +96,7 @@ body {
     padding-bottom: 20px;
     font-size: 80px;
     text-shadow: 1px 1px 2px gray;
-
+    
   }
 
   #about h3 {
@@ -124,10 +123,10 @@ body {
 
 
    #button {
-    height:20px;
-    width:100px;
+    height:20px; 
+    width:100px; 
     position:relative;
-    top:50%;
+    top:50%; 
     left:47%;
     padding-top: 28px;
     padding-bottom: 100px;
@@ -160,8 +159,8 @@ body {
 }
 
 
-
-
+  
+ 
   /***** WORK PAGE CSS *****/
 
   #work {
@@ -170,7 +169,7 @@ body {
     text-align: center;
     font-family:Source Sans Pro;
   }
-
+  
   #work p {
     margin-right: 8%;
     margin-left: 8%;
@@ -205,7 +204,7 @@ body {
    .worksDesc
   {
     font-size: 15px;
-    margin: 50px 10px;
+    margin: 50px 10px; 
     padding-left: 30px;
     padding-right: 30px;
   }
