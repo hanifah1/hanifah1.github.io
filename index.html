@@ -53,7 +53,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
-          <li><a href="#proj1report">SyncIoT Highlights</a></li>
+          <li><a href="#proj1">SyncIoT Highlights</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -186,7 +186,11 @@
 
 
     </section><!-- work container -->
-    <!-- ============================= --><style>
+    <style>
+    #proj1 p {
+      font-family: 'Source Sans Pro';
+    }
+
     #proj1report {
       background-color: #E6ECFC;
     }
@@ -229,7 +233,7 @@
         text-align: center;
         font-size: 50px;
         color: #ecb807;
-        padding-top: 80px;
+        padding-top: 40px;
       }
 
     #proj1report h2 {
@@ -240,13 +244,19 @@
       font-family: 'Fjalla One', sans-serif;
     }
 
+    #proj1report p {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
     @media (max-width: 1090px) {
       #proj1report {
         display: none;
       }
-      
-  </style>
+    }
 
+  </style>
+  <div id="proj1">
   <section id="proj1report">
   <h1>SyncIoT Highlights</h1>
 
@@ -254,7 +264,7 @@
     <div style="padding-top: 50px; padding-bottom: 30px; margin: 0 -5% 0 -5%;">
     <div class='col-sm-12 col-md-6' style="margin-left: -40px; margin-right: 40px;">
       <h3>Responsive Design</h3>
-      <p style="text-align: center;">Currently working with SyncIoT to update preexisting website pages allowing them to function on both desktop and mobile views.</p>
+      <p style="text-align: center;">Currently working with SyncIoT to update website pages allowing them to function on both desktop and mobile views. Now, desktop views translate to cohesive mobile layouts that maintain the original desktop page designs tailored to the mobile experience.</p>
     </div>  
 
     <div class='col-sm-12 col-md-6' style="margin-left: -20px;">
@@ -280,6 +290,116 @@
   </div> <!-- end of proj1reportcontent -->
 
   </section> <!-- end of proj1report -->
+  
+  <style>
+    
+    #proj1reportmobile {
+      background-color: #E6ECFC;
+    }
+
+    #proj1reportmobile h1{
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+        font-size: 60px;
+        color: #3f3f3f;
+        text-shadow: 1px 1px 2px black;
+        padding-bottom: 20px;
+        padding-top: 80px;
+      }
+
+      #gif1mobile {  
+        height: 420px; 
+        width: auto;
+        padding-top: 30px;
+      }
+
+      #proj1reportmobile h3{
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+        font-size: 32px;
+        color: #ecb807;
+      }
+
+    #proj1reportmobile h2 {
+      font-size: 25px;
+      padding-top: 30px; 
+      padding-left: 300px
+      color: #7a9d96;
+      font-family: 'Fjalla One', sans-serif;
+      text-align: center;
+    }
+
+    #proj1reportmobile p {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    #before_dsktop {
+      height: auto;
+      width: 553px;
+    }
+    .proj1reportcontentm { 
+      margin: 0 20% 0 20%;
+    }
+
+    #padding {
+      padding-bottom: 50px;
+    }
+
+    @media(max-width: 800px) {
+      #before_dsktop {
+        height: auto;
+      }
+
+      .proj1reportcontentm {
+        margin: 0 10% 0 10%;
+      }
+    }
+
+    @media (min-width: 1090px) {
+      #proj1reportmobile {
+        display: none;
+      }
+
+  </style>
+  <section id="proj1reportmobile">
+  <h1>SyncIoT Highlights</h1>
+
+  <div class="proj1reportcontentm">
+    <div style="padding-top: 50px; padding-bottom: 10px; margin: 0 -5% 0 -5%;">
+    <div class='col-sm-12 col-md-12'>
+      <h3>Responsive Design</h3>
+      <p style="text-align: center;">
+        Currently working with SyncIoT to update website pages allowing them to function on both desktop and mobile views. Now, desktop views translate to cohesive mobile layouts that maintain the original desktop page designs tailored to the mobile experience.<br> 
+
+        <img style="padding-top: 30px" id="before_dsktop" class='img-responsive center' src="img/capture3.jpg">
+
+        <h2>Before</h2>
+        <img id="gif1mobile" class='img-responsive center' align="middle" src="img/sensorpg0.gif">
+        
+        <h2 style="margin-top: 40px;" >After</h2>
+        <img id="gif1mobile" class='img-responsive center' align="middle" src="img/sensorpg3.gif">
+      </p>
+    </div>  
+
+  </div>  <!-- end of first row -->
+  
+  <div id= "padding">
+    <p style="color: #E6ECFC"> . </p>
+   </div> 
+
+  </div> <!-- end of proj1reportcontent -->
+
+  </section> <!-- end of proj1report -->
+
+</div> <!-- end of #proj1 -->
 
     <section id="contact">
 
