@@ -1,6 +1,6 @@
 var works = [
   {
-    type: "HTML / CSS",
+    type: "Node.js",
     title: "SyncIoT HomePage Design",
     pic: "img/pic8.jpg"
   },
