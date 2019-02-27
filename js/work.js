@@ -1,8 +1,18 @@
 var works = [
   {
-    type: "Node.js",
+    type: "HTML / CSS",
     title: "SyncIoT HomePage Design",
     pic: "img/pic8.jpg"
+  },
+  {
+    type: "HTML / CSS",
+    title: "SyncIoT HomePage Design",
+    pic: "img/pic8.jpg"
+  },
+  {
+    type: "JavaScript",
+    title: "Flickr API Challenge",
+    pic: "img/pic7.jpg"
   },
   {
     type: "Ruby on Rails",
@@ -12,11 +22,6 @@ var works = [
      payment options, product rating/reviews, and admin account restrictions, alongside many other capabilities.",
     link: 'https://github.com/hanifah1/myapp',
     html: 'https://hanifahs-heroku.herokuapp.com/'
-  },
-  {
-    type: "JavaScript",
-    title: "Flickr API Challenge",
-    pic: "img/pic7.jpg"
   },
   {
     type: "JavaScript HTML / CSS",
@@ -44,5 +49,14 @@ var works = [
     of the remaining unpacked items. ",
     link: 'https://gist.github.com/hanifah1/71ddb81cf6bcbe2f470c9bba029ddc3d',
     html: 'packingListApp.html'
-  }
+  },
+  {
+    type: "JQuery",
+    title: "Packing List App",
+    pic: "img/pic6.jpg",
+    desc: "A dynamic packing list featuring jQuery. It allows the user to reccord, edit and delete packing items and also keeps a count \
+    of the remaining unpacked items. ",
+    link: 'https://gist.github.com/hanifah1/71ddb81cf6bcbe2f470c9bba029ddc3d',
+    html: 'packingListApp.html'
+  },
 ];

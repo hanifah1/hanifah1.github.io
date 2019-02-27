@@ -184,10 +184,6 @@ body {
     padding-bottom: 50px;
   }
 
-  .afterworks{
-    color: white;
-  }
-
   .worksDesc
   {
     font-size: 17px;
@@ -208,10 +204,15 @@ body {
     padding-left: 30px;
     padding-right: 30px;
   }
+
   #work {
     margin: 6%;
     padding-top: 20px;
   }
+  }
+
+  .afterworks{
+    color: white;
   }
 
   /***** WORK PAGE CSS (JavaScript)*****/
